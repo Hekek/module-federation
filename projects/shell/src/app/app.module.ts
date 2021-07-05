@@ -8,6 +8,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { AuthLibModule } from 'auth-lib';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { MyLibModule } from 'my-lib';
 // import { SharedLibModule } from 'projects/shared-lib/src/public-api';
 
 @NgModule({
@@ -17,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
     // SharedLibModule,
     HttpClientModule,
     FormsModule,
+    MyLibModule,
     RouterModule.forRoot(APP_ROUTES)
   ],
   declarations: [

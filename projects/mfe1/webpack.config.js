@@ -35,7 +35,7 @@ module.exports = {
           "@angular/common": { singleton: true, strictVersion: true, requiredVersion: '12.0.0' },
           "@angular/router": { singleton: true, strictVersion: true, requiredVersion: '12.0.0' },
           "@angular/common/http": { singleton: true, strictVersion: true, requiredVersion: '12.0.0' }, 
-  
+          "my-lib": { singleton: true, strictVersion: true, requiredVersion: '1.0.2'},
           // Uncomment for sharing lib of an Angular CLI or Nx workspace
           ...sharedMappings.getDescriptors()
         }

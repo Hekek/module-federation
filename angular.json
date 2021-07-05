@@ -24,7 +24,9 @@
 							"projects/mfe1/src/favicon.ico",
 							"projects/mfe1/src/assets"
 						],
-						"styles": [],
+						"styles": [
+							"projects/mfe1/src/styles.css"
+						],
 						"scripts": [],
 						"extraWebpackConfig": "projects/mfe1/webpack.config.js"
 					},
@@ -91,6 +93,7 @@
 							"projects/mfe1/src/assets"
 						],
 						"styles": [
+							"projects/mfe1/src/external-style.css",
 							"projects/mfe1/src/styles.css"
 						],
 						"scripts": [],

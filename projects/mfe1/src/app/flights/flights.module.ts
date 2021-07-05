@@ -5,16 +5,19 @@ import { RouterModule } from '@angular/router';
 import { FLIGHTS_ROUTES } from './flights.routes';
 import { AuthLibModule } from 'auth-lib';
 import { SharedLibModule } from 'shared-lib';
+import { MyLibModule } from 'my-lib';
 
 @NgModule({
   imports: [
     CommonModule,
     AuthLibModule,
     SharedLibModule,
+    MyLibModule,
     RouterModule.forChild(FLIGHTS_ROUTES)
   ],
   declarations: [
     FlightsSearchComponent
-  ]
+  ],
+  providers: []
 })
 export class FlightsModule { }
